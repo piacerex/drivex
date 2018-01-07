@@ -4,7 +4,7 @@ defmodule Drivex.Mixfile do
   def project do
     [
       app: :drivex,
-      version: "0.0.1",
+      version: "0.0.2",
       elixir: "~> 1.5",
 		description: "Google Drive API Elixir wrapper library", 
 		package: 
@@ -34,7 +34,7 @@ defmodule Drivex.Mixfile do
 			{ :mix_test_watch,      "~> 0.5.0",  only: :dev, runtime: false }, 
 			{ :dialyxir,            "~> 0.5.1",  only: :dev }, 
 
-			{ :smallex, "~> 0.0.6" }, 
+			{ :smallex, "~> 0.0.9" }, 
 			{ :goth,    "~> 0.7.2" }, 
 		]
 	end
