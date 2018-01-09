@@ -3,7 +3,7 @@
 [Drivex](https://hex.pm/packages/drivex) is a Google Drive API Elixir wrapper library. Here is an example:
 
 ```elixir
-iex> GoogleDrive.list_file()
+iex> GoogleDrive.list()
 %{"files" => [%{"id" => "1tDgypK1qrcg0oule4Cxxxxxxxy0L7CwN82G0JxC8",
      "kind" => "drive#file",
      "mimeType" => "application/vnd.google-apps.spreadsheet", "name" => "spreadsheet1"},
@@ -51,7 +51,7 @@ config :goth,
 ```
 mix desp.get
 iex -S mix
-iex> GoogleDrive.list_file
+iex> GoogleDrive.list()
 %{"files" => [%{"id" => "1tDgypK1qrcg0oule4Cxxxxxxxy0L7CwN82G0JxC8",
   "kind" => "drive#file",
   "mimeType" => "application/vnd.google-apps.spreadsheet", "name" => "spreadsheet1"},
